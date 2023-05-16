@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<NoWarn>1701;1702;1591</NoWarn>
+		<DocumentationFile>turtle_soup.Web.Core.xml</DocumentationFile>
+	</PropertyGroup>
+
+
+	<ItemGroup>
+		<None Remove="turtle_soup.Web.Core.xml" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\turtle_soup.Application\turtle_soup.Application.csproj" />
+		<ProjectReference Include="..\turtle_soup.Database.Migrations\turtle_soup.Database.Migrations.csproj" />
+	</ItemGroup>
+
+</Project>

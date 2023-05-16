@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>turtle_soup.Core</name>
+    </assembly>
+    <members>
+        <member name="T:turtle_soup.Core.Entity.BaseEntity">
+            <summary>
+            实体基类
+            </summary>
+        </member>
+        <member name="P:turtle_soup.Core.Entity.BaseEntity.Id">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="T:turtle_soup.Core.Entity.SysContent">
+            <summary>
+            海龟汤内容
+            </summary>
+        </member>
+        <member name="T:turtle_soup.Core.Entity.SysContentTheme">
+            <summary>
+            内容主题
+            </summary>
+        </member>
+        <member name="T:turtle_soup.Core.Entity.SysTheme">
+            <summary>
+            内容主题
+            </summary>
+        </member>
+        <member name="T:turtle_soup.Core.Enum.DifficultyEnum">
+            <summary>
+            难度枚举
+            </summary>
+        </member>
+    </members>
+</doc>
